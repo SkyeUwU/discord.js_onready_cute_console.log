@@ -1,4 +1,8 @@
-const { Client } = require('discord.js');
+const { Client, Intents } = require('discord.js');
+const client = new Client({
+  intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES],
+  autoReconnect: true,
+});
 const fs = require('fs');
 
 client.token = "your_bot_token_uwu";
