@@ -1,5 +1,5 @@
 # Discord.js onReady cute console.log
-A Discord.js beautiful console log UwU
+A Discord.js beautiful onReady console log UwU
 
 Preview:
 
